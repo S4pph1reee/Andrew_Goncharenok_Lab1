@@ -1,0 +1,24 @@
+[project]
+name = "sber-laba-1"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Andrew Goncharenok", email = "andreygoncharenok18@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+sber-laba-1 = "sber_laba_1:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
